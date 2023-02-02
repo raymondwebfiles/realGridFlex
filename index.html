@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            grid-template-rows: 40vh 20vh 40vh;
+        }
+        .box{
+            width: 100%;
+            border: 1px solid black;
+        }
+            .box1{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-column-gap: 3px;
+                grid-row-gap: 3px;
+            }
+            .cbox{
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 5px;
+             }
+
+                .box2{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                    grid-column-gap: 3px;
+                    grid-row-gap: 3px;
+                }
+                .dbox{
+                    width: 100%;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                }
+                    .box3{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+                        grid-column-gap: 3px;
+                        grid-row-gap: 3px;
+                    }
+                    .ebox{
+                        width: 100%;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                    }
+                            .box4{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                            grid-column-gap: 3px;
+                            grid-row-gap: 3px;
+                        }
+                        .abox{
+                            width: 100%;
+                            border: 1px solid black;
+                            border-radius: 5px;
+                        }
+    </style>
+</head>
+<body>
+    <div class="box" style="background-color: lightblue;"></div>
+    <div class="box box1">
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+        <div class="cbox"></div>
+    </div>  <!--12,13,14,17,22,27-->
+    <div class="box" style="background-color: orange;"></div>
+    <div class="box box2">
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+        <div class="dbox"></div>
+    </div> <!--4 13 22-26-->
+    <div class="box" style="background-color: black;"></div>
+    <div class="box box3">
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+        <div class="ebox"></div>
+    </div> <!--18-22 31 40-->
+    <div class="box" style="background-color: orangered;"></div>
+    <div class="box box4">
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+        <div class="abox"></div>
+    </div> <!--2 7 12 15-17-->
+    <div class="box" style="background-color: yellowgreen;"></div>
+    <script>
+        let box1 = document.querySelectorAll(".cbox")
+        box1[12].style.backgroundColor = "orange"
+        box1[13].style.backgroundColor = "orange"
+        box1[14].style.backgroundColor = "orange"
+        box1[17].style.backgroundColor = "orange"
+        box1[22].style.backgroundColor = "orange"
+        box1[27].style.backgroundColor = "orange"
+
+        let box4 = document.querySelectorAll(".dbox")
+        box4[4].style.backgroundColor = "lightblue"
+        box4[13].style.backgroundColor = "lightblue"
+        box4[22].style.backgroundColor = "lightblue"
+        box4[23].style.backgroundColor = "lightblue"
+        box4[24].style.backgroundColor = "lightblue"
+        box4[25].style.backgroundColor = "lightblue"
+        box4[26].style.backgroundColor = "lightblue"
+
+        let box3 = document.querySelectorAll(".ebox")
+        box3[18].style.backgroundColor = "yellowgreen"
+        box3[19].style.backgroundColor = "yellowgreen"
+        box3[20].style.backgroundColor = "yellowgreen"
+        box3[21].style.backgroundColor = "yellowgreen"
+        box3[22].style.backgroundColor = "yellowgreen"
+        box3[31].style.backgroundColor = "yellowgreen"
+        box3[40].style.backgroundColor = "yellowgreen"
+
+        let box2 = document.querySelectorAll(".abox")
+        box2[2].style.backgroundColor = "orangered"
+        box2[7].style.backgroundColor = "orangered"
+        box2[12].style.backgroundColor = "orangered"
+        box2[15].style.backgroundColor = "orangered"
+        box2[16].style.backgroundColor = "orangered"
+        box2[17].style.backgroundColor = "orangered"
+        // console.log(box1)
+    </script>
+</body>
+</html>
